@@ -1,0 +1,71 @@
+.App {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ 
+}
+
+
+form{
+    width: 500px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.inputDiv{
+    margin-bottom: 10px;
+}
+
+input,select{
+    width: 100%;
+    padding: 8px  7px;
+    font-size: 16px;
+    border: 2px solid #4a5568;
+    background-color: #2d3748;
+    color: white;
+    margin: 5px 0px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: lightgray;
+}
+
+input:focus{
+    border-color: lightgray;
+}
+
+button{
+    width: 100%;
+    border: none;
+    padding: 8px 8px;
+    margin: 16px 0;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.input-error{
+    border-color: #fc8181;
+}
+
+.error{
+    color: #fc8181;
+    font-size: 12px;
+    text-align: left;
+}
+
+.checkbox{
+   display: flex;
+   justify-content: center;
+}
